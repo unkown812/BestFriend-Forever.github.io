@@ -89,7 +89,7 @@ function drawText() {
   if (frameNumber < 300) {
     context.fillStyle = `rgba(255, 255, 255, ${opacity})`;
     context.fillText(
-      "Everyday day I cannot believe how lucky I am",
+      "Everyday day I cannot believe how lucky ✨ I am",
       canvas.width / 2,
       canvas.height / 2
     );
@@ -100,7 +100,7 @@ function drawText() {
   if (frameNumber >= 300 && frameNumber < 600) {
     context.fillStyle = `rgba(255, 255, 255, ${opacity})`;
     context.fillText(
-      "Everyday day I cannot believe how lucky I am",
+      "Everyday day I cannot believe how lucky ✨ I am",
       canvas.width / 2,
       canvas.height / 2
     );
@@ -153,7 +153,7 @@ function drawText() {
 
     if (window.innerWidth < 600) {
       drawTextWithLineBreaks(
-        ["Friendships which have fights doesn't last long"],
+        ["Friendships which have fights doesn't last long 🧑‍🤝‍🧑"],
         canvas.width / 2,
         canvas.height / 2,
         fontSize,
@@ -161,7 +161,7 @@ function drawText() {
       );
     } else {
       context.fillText(
-        "Friendships which have fights doesn't last long",
+        "Friendships which have fights doesn't last long 🧑‍🤝‍🧑 ",
         canvas.width / 2,
         canvas.height / 2
       );
@@ -172,7 +172,7 @@ function drawText() {
   if (frameNumber >= 1500 && frameNumber < 1800) {
     context.fillStyle = `rgba(255, 255, 255, ${opacity})`;
     context.fillText(
-      "Friendships which have fights doesn't last long",
+      "Friendships which have fights doesn't last long 🧑‍🤝‍🧑 ",
       canvas.width / 2,
       canvas.height / 2
     );
@@ -183,7 +183,7 @@ function drawText() {
     context.fillStyle = `rgba(255, 255, 255, ${opacity})`;
     context.fillText(
       "I just want to say how much you mean to me.",
-      "Your openness and kindness are truly special, and I cherish our bond.",
+      "Your openness and kindness are truly special, and I cherish our bond.💝",
       canvas.width / 2,
       canvas.height / 2
     );
@@ -193,7 +193,7 @@ function drawText() {
     context.fillStyle = `rgba(255, 255, 255, ${opacity})`;
     context.fillText(
       "I just want to say how much you mean to me. ",
-      "Your openness and kindness are truly special, and I cherish our bond.",
+      "Your openness and kindness are truly special, and I cherish our bond.💝",
       canvas.width / 2,
       canvas.height / 2
     );
@@ -205,7 +205,7 @@ function drawText() {
     if (window.innerWidth < 600) {
       drawTextWithLineBreaks(
         [
-          "I'm always here for you, ready to listen and support you through anything."
+          "I'm always here for you, ready to listen and support you through anything.🤝"
         ],
         canvas.width / 2,
         canvas.height / 2,
@@ -214,7 +214,7 @@ function drawText() {
       );
     } else {
       context.fillText(
-        "I'm always here for you, ready to listen and support you through anything.\n",
+        "I'm always here for you, ready to listen and support you through anything.🤝",
         canvas.width / 2,
         canvas.height / 2
       );
@@ -228,7 +228,7 @@ function drawText() {
     if (window.innerWidth < 600) {
       drawTextWithLineBreaks(
         [
-          "Your happiness is important to me, and I’m grateful to have you in my life.",
+          "Your happiness is important to me, and I’m grateful to have you in my life.🥰",
         ],
         canvas.width / 2,
         canvas.height / 2,
@@ -237,7 +237,7 @@ function drawText() {
       );
     } else {
       context.fillText(
-        "Your happiness is important to me, and I’m grateful to have you in my life.",
+        "Your happiness is important to me, and I’m grateful to have you in my life. 🥰 ",
         canvas.width / 2,
         canvas.height / 2
       );
@@ -255,7 +255,7 @@ function drawText() {
     if (window.innerWidth < 600) {
       drawTextWithLineBreaks(
         [
-          "Thanks For Being the Best Friend in my life"
+          "Thanks For Being the Best Friend in my life ✨"
         ],
         canvas.width / 2,
         canvas.height / 2,
@@ -264,7 +264,7 @@ function drawText() {
       );
     } else {
       context.fillText(
-        "Thanks For Being the Best Friend in my life",
+        "Thanks For Being the Best Friend in my life ✨ ",
         canvas.width / 2,
         canvas.height / 2
       );
